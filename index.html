@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<h1>Linear Gradient</h1>
+<body>
+    <section class="Front" id="Front">
+    <div id="ATMcardF" >
+        <div class="dominion-design">
+            <div class="text">
+                <span>aspire</span>
+                <span class="highlight">by DOMINION</span>
+            </div>
+        </div>
+        <div class="image-cont">
+            <div class="image-content"><img src="./chip5.png" alt="" class="image"></div>
+        </div>
+        <div class="wifi"></div>
+        <div class="actuallyPin"></div>
+        <div class="cardNum">2 2 9 9 8 7 1 9 7 6 0 3 7 1 5</div>
+        <div class="fourNum">5229</div>
+       <div class="ValidateNum">
+        MONTH/YEAR<br>
+       <span  id="date">0 2 /2 6</span> 
+       </div>
+<div class="exactVal">
+    VALID<br>
+    THRU
+</div>
+<div class="Owner" id="owner">
+    Dodo's EBN
+</div> 
+        <div id="downcolor1"></div>
+        <div id="downcolor2"></div>
+    </div>
+    <p>Hey   <a href="#" onclick="toggleCards();">See the back</a></p>
+</section>
+
+<section class="Back" id="Back" style="display:none;">
+    <div id="ATMcardB" >
+<span class="upNum">
+    IDEMA 8 174287A 05/19
+</span>
+<span class="Black">
+<p></p>
+</span>
+<span class="Auth">
+    AUTHORISED SIGNATURE ONLY - NOT VALID UNLESS SIGNED
+</span>
+<div id="cvv" value="010">010</div>
+ <span id="dbcolor"></span>
+<span class="WriteUps">
+    <p>By using this card, the holder agrees to all the terms and conditions
+    under which it was issued. This Card is issued by Dominion Bank
+    pursuant to a licence by Mastercard Asia/Pacific Pte. Ltd
+    It remains the property of the issuer and must be returned upon request</p>
+</span>
+<span class="bank">
+   <p> DOMINION BANK PLC, 24-Hours Customer Service
+    Tel: +234 8078168064, 0800DOMINIONBANK
+    Email: orjidominion32@gmail.com</p>
+</span>
+<span id="bank-name">
+    D
+</span>
+<span class="issued">
+    ISSUED BY
+</span>
+    </div>
+
+    <p>Hey <a href="#" onclick="toggleCards() ">See the front</a></p>
+</section>
+
+<section class="form-section">
+    <form action="#" method="get" id="form">
+        <div style="width: 80%;">
+        <div>
+        <div>
+            <label for="owner-input">Card Owner</label>
+            <input type="text" name="card-user"  id="owner-input" class="inp" maxlength="20" required>
+            </div>
+            </div>
+        <div>
+        <div>
+        <label for="num-input">Card Number</label>
+        <div id="input-cont">
+        <input type="text" name="" id="num-input" class="num-input1 inp"  maxlength="4" minlength="0" required>
+        <input type="text" name="" id="num-input" class="num-input2 inp"  maxlength="4" minlength="0" required>
+        <input type="text" name="" id="num-input" class="num-input3 inp"  maxlength="4" minlength="0" required>
+        <input type="text" name="" id="num-input" class="num-input4 inp"  maxlength="4" minlength="0" required>
+        </div>
+        </div>
+        </div>
+
+        <div>
+        <div>
+            <label for="month">Month</label>
+           <select name="month" id="month" style="width: 100%;" class="inp">
+            <option value="01">January</option>
+            <option value="02">Febuary</option>
+            <option value="03">March</option>
+            <option value="04">April</option>
+            <option value="05">May</option>
+            <option value="06">June</option>
+            <option value="07">July</option>
+            <option value="08">August</option>
+            <option value="09">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+           </select>
+            </div>
+            </div>
+        <div>
+        <div>
+            <label for="year">Year</label>
+            <select name="year" id="year" style="width: 100%;" class="inp">
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+                <option value="2031">2031</option>
+                <option value="2032">2032</option>
+                <option value="2033">2033</option>
+                <option value="2034">2034</option>
+                <option value="2035">2035</option>
+                <option value="2036">2036</option>
+            </select>
+            </div>
+            </div>
+
+            <div>
+            <div>
+                <label for="cvv-input">CVV</label>
+                <input type="text" name="cvv"  id="cvv-input" class="inp" maxlength="3" required>
+                </div>
+            <div>
+            <div>
+            <div>
+
+    </form>
+
+  
+</section>
+    <script src="script.js"></script>
+</body>
+</html>

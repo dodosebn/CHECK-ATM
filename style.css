@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+}
+#ATMcardF {
+  background: linear-gradient(red, yellow);
+  width: 550px;
+  height: 300px;
+  display: grid;
+  place-content: center;
+  margin-left: 650px;
+  border-radius: 15px;
+  cursor: default;
+  position: relative;
+}
+@import url("https://fonts.google apis.com/css2.family=Shrikhand&display=swap");
+.dominion-design {
+  top: 15%;
+  right: -8%;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.dominion-design .text {
+  text-align: center;
+  color: #000;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Shrikhand", cursive;
+}
+.highlight {
+  color: #fff;
+  display: block;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.cardNum {
+  position: absolute;
+  top: 8rem;
+  left: 4rem;
+  font-size: 35px;
+  font-weight: bold;
+}
+.image {
+  width: 100px;
+}
+.image-cont {
+  position: absolute;
+  left: 0.5rem;
+}
+.fourNum {
+  position: absolute;
+  top: 10.5rem;
+  left: 4.4rem;
+  font-weight: 600;
+  font-size: 15px;
+}
+.ValidateNum {
+  position: absolute;
+  left: 14em;
+  bottom: 4.3rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+.exactVal {
+  position: absolute;
+  left: 13em;
+  bottom: 4.5rem;
+  font-weight: 600;
+  font-size: 13px;
+}
+.Owner {
+  position: absolute;
+  left: 2rem;
+  bottom: 1rem;
+  font-size: 22px;
+  font-weight: 600;
+}
+#downcolor1 {
+  background: red;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 25em;
+  bottom: 1em;
+  border-radius: 50%;
+}
+#downcolor2 {
+  background: #ff7e00;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 27.3em;
+  bottom: 1.1em;
+  border-radius: 50%;
+}
+#ATMcardB {
+  background: red;
+  width: 550px;
+  height: 300px;
+  display: grid;
+  place-content: center;
+  margin-left: 650px;
+  border-radius: 15px;
+}
+.upNum {
+  color: whitesmoke;
+  position: absolute;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  top: 4em;
+  right: 16em;
+}
+.Black {
+  background: #002;
+  width: 34.4em;
+  height: 3em;
+  position: absolute;
+  top: 4.5em;
+}
+.Auth {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  position: absolute;
+  font-weight: 600;
+  top: 9.5em;
+right: 23em;
+}
+#cvv {
+  width: 22em;
+  height: 2.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+   top: 9em;
+ right: 21em;
+  background-color: white;
+  color: #a84d15;
+}
+#dbcolor {
+  background: linear-gradient(148deg, #9f8383, white);
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 12em; 
+  right: 36.9em;
+  border-radius: 4em;
+}
+.WriteUps {
+  width: 380px;
+  font-size: 11px;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  position: absolute;
+top: 17em;
+   right: 18em;
+}
+.bank {
+  width: 270px;
+  color: whitesmoke;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  position: absolute;
+  top: 24em; 
+  right: 28em;
+}
+#bank-name {
+  font-size: 65px;
+  font-weight: bold;
+  color: yellow;
+  position: absolute;
+ left: 17.5em;
+  bottom: 20rem; */
+}
+.issued {
+  position: absolute;
+  left: 82.2em;
+  top: 21.5em;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
+form {
+  width: 400px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  position: absolute;
+  left: 9em;
+  top: 3em;
+  display: flex;
+  justify-content: center;
+}
+#owner-input, #cvv-input, #num-input{ outline: none;}
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-section #owner-input,
+.form-section #cvv-input,
+.form-section select {
+  width: 94%;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.form-section .form-row {
+display: flex;
+  gap: 10px;
+}
+#num-input {
+  width: 50px;
+  height: 20px;
+}
+.form-section input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.form-section input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.form-section input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+#input-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
